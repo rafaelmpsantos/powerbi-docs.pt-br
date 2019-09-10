@@ -45,6 +45,7 @@ As seguintes fontes de dados dão suporte ao DirectQuery no Power BI:
 * SQL Server
 * Banco de dados Teradata
 * Vertica
+* PostgreSQL
 
 As fontes de dados que têm **(Beta)** ou **(Versão prévia)** depois do nome estão sujeitas a alterações e não há suporte para que elas sejam usadas em produção. É possível que também não haja suporte para elas após a publicação de um relatório no **serviço do Power BI**, o que significa que abrir um relatório publicado ou explorar o conjunto de dados pode resultar em um erro.
 
