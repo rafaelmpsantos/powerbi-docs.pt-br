@@ -28,7 +28,7 @@ Para cada provedor de dados, o Power BI dá suporte a uma versão específica do
 | Oracle (consulte a observação 2) |ODP.NET |ODAC 11.2 versão 5 (11.2.0.3.20) |9.x+ |Tabelas/modos de exibição |[Link de download](http://go.microsoft.com/fwlink/?linkid=272376&clcid=0x409) |
 | | System.Data.OracleClient (criado no .NET Framework) |.NET Framework 3.5 |9.x+ |Tabelas/modos de exibição |Incluído no .NET Framework 3.5 ou superior |
 | IBM DB2 |Cliente ADO.Net da IBM (parte do pacote de driver do servidor de dados da IBM) |10.1 |9.1+ |Tabelas/modos de exibição |[Link de download](http://go.microsoft.com/fwlink/?linkid=274911&clcid=0x409) |
-| MySQL |Conector/rede |6.6.5 |5.1 |Tabelas/modos de exibição, Funções escalares |[Link de download](http://go.microsoft.com/fwlink/?linkid=278885&clcid=0x409) |
+| MySQL |Conector/rede |6.6.5 |5.1 |Tabelas/modos de exibição, Funções escalares |[Link de download](https://dev.mysql.com/downloads/connector/net/6.10.html) |
 | PostgreSQL |Provedor ADO.NET NPGSQL |2.0.12 |7.4 |Tabelas/modos de exibição |[Link de download](http://go.microsoft.com/fwlink/?linkid=282716&clcid=0x409) |
 | Teradata |Provedor de dados .Net para Teradata |14+ |12+ |Tabelas/modos de exibição |[Link de download](http://go.microsoft.com/fwlink/?linkid=278886&clcid=0x409) |
 | SAP Sybase SQL Anywhere |iAnywhere.Data.SQLAnywhere para .NET 3.5 |16+ |16+ |Tabelas/modos de exibição |[Link de download](http://go.microsoft.com/fwlink/?linkid=324846) |
@@ -38,6 +38,9 @@ Para cada provedor de dados, o Power BI dá suporte a uma versão específica do
 
 >[!NOTE]
 >Os provedores da Oracle também exigem software cliente da Oracle (versão 8.1.7+).
+
+>[!NOTE]
+>Para conexão a MySQL necessário utilizar versão anterior a 8.0.17. Recomendada a versão 6.10.9 disponível no link https://dev.mysql.com/downloads/connector/net/6.10.html.
 > 
 > 
 
